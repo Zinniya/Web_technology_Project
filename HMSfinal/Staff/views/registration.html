@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	
+	<script src="js/external.js"></script>
+<style>
+body {
+  background-color: hsl(0, 100%, 90%);;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+a {
+  padding: 3px;
+  text-decoration: none;
+  font-style: italic;
+  color: green;
+  border: 3px powderblue;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 15px;
+}
+
+
+input[type="submit"] {
+  margin: 10px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 100px;
+  border: 5px hotpink;
+  background-color:green;
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+	                   <h1>Staff lists</h1>                          
+	
+
+	<form action="../controllers/RegistrationAction.php" method="post" onsubmit="return isValid(this)">
+                        
+                        <br><br>
+
+		<label   style="width: 25%; height: 10px; text-align:center;" for="fname">First Name:<span class="required">
+		</span></label>
+		<input type="text" id="fname" name="fname">
+		<span class="error" id="fnameErr"></span>
+
+		<br><br>
+
+		<label  style=" width: 25%; height: 10px; text-align:center;"for="lname">Last Name:<span class="required"></span></label>
+		<input type="text" name="lname">
+		<span class="error" id="lnameErr"></span>
+
+		<br><br>
+
+		<input type="submit" name="submit" value="Register">
+		<h1><a href="../controllers/UserList.php">Show staff lists</a><h1>
+		
+	</form>
+
+</body>
+</html>

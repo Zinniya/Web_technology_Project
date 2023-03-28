@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  
+  
+  background-color: hsl(0, 100%, 90%); ;
+  background-image: url(../Ho.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 30%;
+  font-size: large;
+}
+
+
+
+
+
+
+a {
+  padding: 3px;
+  text-decoration: none;
+  font-style: italic;
+  color: green;
+  border: 3px powderblue;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 15px;
+}
+
+
+
+
+label {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Praise", cursive;
+  font-size: 18px;
+  font-style: italic;
+}
+
+input[type="submit"] {
+  margin: 10px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 100px;
+  border: 5px hotpink;
+  background-color:green;
+}
+
+input[type="reset"] {
+  margin: 10px;
+  width: 200px;
+  color: white;
+  padding: 1px;
+  font-size: 15px;
+  border-radius: 100px;
+  background-color:green;
+}
+
+
+div.login {
+  width: 100%;
+  height: 400px;
+  text-decoration-style: solid;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  border: 5px solid rgb(200, 200, 200, 0.3);
+  box-shadow: 2px 2px 15px;
+  color: black;
+}
+
+div.reg-main {
+  text-shadow: 10px;
+  padding: 100px;
+  font-family: "Praise", cursive;
+}
+
+div.reg {
+  height: 500px;
+  text-decoration-style: solid;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 50px;
+  border: 5px solid rgb(350, 350, 350, 0.7);
+  box-shadow: 2px 2px 15px;
+  color: green
+}
+
+div.fog {
+  margin: 150px;
+  padding: 70px;
+  text-align: center;
+  border: 5px solid rgb(200, 200, 200, 0.3);
+  box-shadow: 2px 2px 15px;
+  border-radius: 100px;
+}
+
+
+
+input#name {
+  width: 3px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.C_Menu {
+  margin: 0px;
+  padding: 0px;
+  height: 300px;
+  width: 400px;
+}
+
+div.image {
+  padding: 50px;
+  margin: 50px;
+  border: 4px hotpink;
+  box-shadow: 4px 2px 18px;
+  border-radius: 5000px;
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+.hotpink {
+  color: pink;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+ 
+  height: 50%;
+}
+
+
